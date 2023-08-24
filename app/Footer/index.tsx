@@ -1,3 +1,12 @@
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faPinterest } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+
+
+
 const Footer =() => {
     return (
 
@@ -11,11 +20,16 @@ const Footer =() => {
 
     <div className="icons flex mt-4">
     <span className="mr-2 text-red-500">Follow Us On</span>
+
     <div className='iconz'>
-    <i className="bi bi-pinterest text-xl mr-2"></i>
-    <i className="bi bi-instagram text-xl mr-2"></i>
-    <i className="bi bi-twitter text-xl mr-2"></i>
-    <i className="bi bi-facebook text-xl"></i>
+    {/* <FontAwesomeIcon icon={faStar} style={{ color: '#FFD700' }} /> */}
+    <FontAwesomeIcon icon={faPinterest} />
+    <FontAwesomeIcon icon={faInstagram} />
+    <FontAwesomeIcon icon={faTwitter} />
+    <FontAwesomeIcon icon={faFacebook} />
+
+    
+    
     </div>
     </div>
 
